@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.api", "CleanArch.api\CleanArch.api.csproj", "{99F4E872-125D-4AD1-BCF4-C4EE5AD6A8EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.BLL", "CleanArch.BLL\CleanArch.BLL.csproj", "{C08D7DEE-80FB-475A-AF70-4BFF4B33D99D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.DAL", "CleanArch.DAL\CleanArch.DAL.csproj", "{DA904D3D-7548-4CA7-9131-16DF27AEFE91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99F4E872-125D-4AD1-BCF4-C4EE5AD6A8EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F4E872-125D-4AD1-BCF4-C4EE5AD6A8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F4E872-125D-4AD1-BCF4-C4EE5AD6A8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F4E872-125D-4AD1-BCF4-C4EE5AD6A8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08D7DEE-80FB-475A-AF70-4BFF4B33D99D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08D7DEE-80FB-475A-AF70-4BFF4B33D99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08D7DEE-80FB-475A-AF70-4BFF4B33D99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08D7DEE-80FB-475A-AF70-4BFF4B33D99D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA904D3D-7548-4CA7-9131-16DF27AEFE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA904D3D-7548-4CA7-9131-16DF27AEFE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA904D3D-7548-4CA7-9131-16DF27AEFE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA904D3D-7548-4CA7-9131-16DF27AEFE91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
