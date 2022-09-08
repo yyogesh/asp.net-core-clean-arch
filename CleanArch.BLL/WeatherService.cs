@@ -1,5 +1,4 @@
-﻿using CleanArch.DAL;
-namespace CleanArch.BLL;
+﻿namespace CleanArch.BLL;
 public class WeatherService : IWeatherService
 {
     private readonly IWeatherDataRepository repository;
@@ -9,11 +8,12 @@ public class WeatherService : IWeatherService
     }
     public IEnumerable<WeatherForecast> Get(string cityName, int numberOfDays)
     {
-        return repository.Get(cityName, numberOfDays).Select(weatherDto => new WeatherForecast
-        {
-            Date = weatherDto.Date,
-            Summary = weatherDto.Summary,
-            TemperatureC = weatherDto.TemperatureC
-        });
+        return repository.Get(cityName, numberOfDays);
+        // .Select(weatherDto => new WeatherForecast
+        // {
+        //     Date = weatherDto.Date,
+        //     Summary = weatherDto.Summary,
+        //     TemperatureC = weatherDto.TemperatureC
+        // });
     }
 }
